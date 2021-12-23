@@ -1,0 +1,32 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "This repo contains scripts for testing Todo Application using Cypress Framework.",
+  "main": "index.js",
+  "scripts": {
+    "cypress:verify": "cypress verify",
+    "cypress:info": "cypress info",
+    "cypress:open": "npm run cypress:open",
+    "test:run": "cypress run",
+    "test:run-headed": "cypress run --headed",
+    "test:chrome": "cypress run --headed --browser chrome"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "author": "Sachin",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.3.1",
+    "cypress-cucumber-preprocessor": "^4.2.0",
+    "mocha": "^8.4.0",
+    "mochawesome": "^6.2.2",
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  }
+}

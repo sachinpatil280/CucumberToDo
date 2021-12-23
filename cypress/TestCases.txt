@@ -1,0 +1,16 @@
+Test cases covered in automation:
+
+1) Adding a simple task in the todo list
+2) Adding multiple task in the todo list
+3) Removing task from list
+4) Marking a task as completed in the list 
+5) Marking a task as completed and toggle it back as not completed
+6) Removing a task from list that is completed 
+7) Clearing the completed task
+8) Negative : No tasks present in list when page loads
+9) Negative : No task is completed when page loads
+10) Negative : No task is completed before it is marked as completed
+11) Verifying the number of items left after few are completed
+12) Edit the task and verify the update
+13) Edit the completed task and verify the update
+14) Edit the task, try to clear the text and press Esc button

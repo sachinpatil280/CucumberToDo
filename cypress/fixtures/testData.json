@@ -1,0 +1,25 @@
+{
+  "singleItemList": "Get grocery",
+  "multipleItemList": [
+    "Get grocery",
+    "Do laundry",
+    "Make dinner"
+  ],
+  "updatedValue": "Do assignment",
+  "createTodo": {
+    "title": "Grocery",
+    "body": "Get Rice",
+    "userId": 1
+  },
+  "updateTodo": {
+    "title": "Grocery",
+    "body": "Get Soap",
+    "userId": 1
+  },
+  "updateTitle": {
+    "title": "Working"
+  },
+  "filterData": {
+    "userId": "?userId=1"
+  }
+}

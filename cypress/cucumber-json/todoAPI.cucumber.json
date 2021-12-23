@@ -1,0 +1,192 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "End to End ToDo Application API Validation",
+    "line": 1,
+    "id": "end-to-end-todo-application-api-validation",
+    "tags": [],
+    "uri": "todoAPI.feature",
+    "elements": [
+      {
+        "id": "end-to-end-todo-application-api-validation;to-access-jsonplaceholder.typicode.com-and-perform-basic-api-test-to-fetch-users-for-todo-endpoint.",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "To access jsonplaceholder.typicode.com and perform basic api test to fetch users for todo endpoint.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I access api request to fetch todo list",
+            "result": {
+              "status": "passed",
+              "duration": 436000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Verify response from the GET request",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-todo-application-api-validation;to-create-todo-item-using-post-request",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "To create todo item using POST request",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I create todo item for userId 1",
+            "result": {
+              "status": "passed",
+              "duration": 471000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Verify response contains todo item with unique id",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-todo-application-api-validation;to-update-todo-item",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "To Update todo item",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I update todo item",
+            "result": {
+              "status": "passed",
+              "duration": 483000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Verify response is updated",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-todo-application-api-validation;to-update-todo-item-partially",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "To update todo item partially",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I update Title of existing todo item",
+            "result": {
+              "status": "passed",
+              "duration": 456000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Verify item Title is updated",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-todo-application-api-validation;to-delete-todo-item.",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "To delete todo item.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "I delete an todo item",
+            "result": {
+              "status": "passed",
+              "duration": 466000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "Verify the item is deleted",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-todo-application-api-validation;to-filter-todo-items-based-on-users",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "To filter todo items based on users",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "I filter todo items for specific user",
+            "result": {
+              "status": "passed",
+              "duration": 445000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "Verify fetched data is for specific user",
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

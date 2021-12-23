@@ -1,0 +1,13 @@
+{
+    "defaultCommandTimeout": 9000,
+    "pageLoadTimeout": 10000,
+    "env": {
+        "url": "https://todomvc.com/examples/react/#/",
+        "api_url": "https://jsonplaceholder.typicode.com/todos"
+    },
+    "testFiles": "**/*.feature",
+    "requestTimeout": 10000,
+    "responseTimeout": 30000,
+    "videoUploadOnPasses": false,
+    "video": false
+}
